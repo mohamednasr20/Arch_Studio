@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
 import Header from './component/Header';
 import Home from './component/Home';
 import About from './component/About';
@@ -10,7 +11,7 @@ import Contact from './component/Contact';
 
 const App = () => {
   return (
-    <>
+    <Container>
       <Router>
         <Header />
         <Switch>
@@ -28,7 +29,7 @@ const App = () => {
           </Route>
         </Switch>
       </Router>
-    </>
+    </Container>
   );
 };
 
