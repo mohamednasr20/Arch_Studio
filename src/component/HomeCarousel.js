@@ -4,14 +4,15 @@ import imageHeroFederal from '../assets/home/desktop/image-hero-federal.jpg';
 import imageHeroParamour from '../assets/home/desktop/image-hero-paramour.jpg';
 import imageHeroSeraph from '../assets/home/desktop/image-hero-seraph.jpg';
 import imageHeroTrinity from '../assets/home/desktop/image-hero-trinity.jpg';
+import '../styles/HomeCarousel.css';
 
 const HomeCarousel = () => {
   return (
-    <Carousel controls={false}>
+    <Carousel className="carousel" controls={false}>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={imageHeroFederal}
+          src={imageHeroParamour}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -22,7 +23,7 @@ const HomeCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={imageHeroParamour}
+          src={imageHeroSeraph}
           alt="Second slide"
         />
 
@@ -34,7 +35,7 @@ const HomeCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={imageHeroSeraph}
+          src={imageHeroFederal}
           alt="Third slide"
         />
 

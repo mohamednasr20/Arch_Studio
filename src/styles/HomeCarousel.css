@@ -1,0 +1,41 @@
+.carousel-indicators {
+  justify-content: flex-start;
+  margin: 0;
+  transform: translateX(-90px);
+}
+
+.carousel-indicators li {
+  position: relative;
+    padding: 30px;
+    margin: 0;
+    opacity: 1;
+    text-indent: 0;
+    background: #fff;
+  }
+
+  .carousel-indicators li::before{
+    content: "qq" ;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+    
+    
+  }
+
+  .carousel-indicators li.active {
+    background: var(--main-color);
+    color: #fff;
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  

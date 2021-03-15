@@ -1,7 +1,8 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 function Portfolio() {
-  return <div>Portfolio</div>;
+  return <Container>Portfolio</Container>;
 }
 
 export default Portfolio;

@@ -3,15 +3,11 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import logo from '../assets/logo.svg';
 import { Link } from 'react-router-dom';
+import '../styles/Header.css';
 
 const Header = () => {
   return (
-    <Navbar
-      className="my-4 px-0 py-2"
-      collapseOnSelect
-      expand="md"
-      variant="light"
-    >
+    <Navbar className="nav px-0 py-4" collapseOnSelect expand="md">
       <Link to="/">
         <Navbar.Brand>
           <img src={logo} alt="logo" />
