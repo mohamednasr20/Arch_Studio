@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../component/Button';
 import Carousel from 'react-bootstrap/Carousel';
 import imageHeroFederal from '../assets/home/desktop/image-hero-federal.jpg';
 import imageHeroParamour from '../assets/home/desktop/image-hero-paramour.jpg';
@@ -8,7 +9,7 @@ import '../styles/HomeCarousel.css';
 
 const HomeCarousel = () => {
   return (
-    <Carousel className="carousel" controls={false}>
+    <Carousel controls={false}>
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -16,8 +17,12 @@ const HomeCarousel = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h1>Project Paramour</h1>
+          <p className="py-2 lead">
+            Project made for an art museum near Southwest London. Project
+            Paramour is a statement of bold, modern architecture.
+          </p>
+          <Button text="See Our Portfolio" />
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -28,8 +33,13 @@ const HomeCarousel = () => {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h1>Seraph Station</h1>
+          <p className="py-2 lead">
+            The Seraph Station project challenged us to design a unique station
+            that would transport people through time. The result is a fresh and
+            futuristic model inspired by space stations.
+          </p>
+          <Button text="See Our Portfolio" />
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -40,10 +50,13 @@ const HomeCarousel = () => {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          <h1>Federal II Tower</h1>
+          <p className="py-2 lead">
+            A sequel theme project for a tower originally built in the 1800s. We
+            achieved this with a striking look of brutal minimalism with modern
+            touches.
           </p>
+          <Button text="See Our Portfolio" />
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -54,8 +67,14 @@ const HomeCarousel = () => {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h1>Trinity Bank Tower</h1>
+          <p className="py-2 lead">
+            Trinity Bank challenged us to make a concept for a 84 story building
+            located in the middle of a city with a high earthquake frequency.
+            For this project we used curves to blend design and stability to
+            meet our objectives.
+          </p>
+          <Button text="See Our Portfolio" />
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

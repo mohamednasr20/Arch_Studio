@@ -15,15 +15,28 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Spartan', sans-serif;
+  
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+}
+
 a,
 a:hover {
   text-decoration: none;
   color: var(--medium-color);
 }
 
-body {
-  font-family: 'Spartan', sans-serif;
-  
+.lead {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  width: 446px;
 }
 
 .container {
@@ -49,8 +62,7 @@ body {
   transform: rotate(90deg);
   margin-bottom: 0;
   color: var(--light-color);
-  font-size: 1.2rem;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.5rem;
   text-transform: uppercase;
 }
 

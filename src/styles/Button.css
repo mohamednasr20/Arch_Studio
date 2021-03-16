@@ -1,0 +1,14 @@
+.Button {
+    padding: 20px 25px;
+    background: var(--main-color);
+    color: #fff;
+    border: none;
+  }
+
+  .Button:hover {
+     background: var(--dark-color);
+  }
+
+  img {
+      padding-left: 10px;
+  }
