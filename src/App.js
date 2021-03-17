@@ -12,7 +12,7 @@ import Contact from './component/Contact';
 const App = () => {
   return (
     <Container className="p-0">
-      <div className="current">Home</div>
+      {/* <div className="current">Home</div> */}
       <Router>
         <Header />
         <Switch>

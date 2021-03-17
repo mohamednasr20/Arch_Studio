@@ -9,6 +9,10 @@
      background: var(--dark-color);
   }
 
+ .Button:active {
+     background: var(--medium-color);
+ }
+
   img {
       padding-left: 10px;
   }

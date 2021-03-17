@@ -45,6 +45,7 @@ a:hover {
   
 }
 
+
 .container::before {
   content: "";
   position: absolute;
@@ -54,7 +55,6 @@ a:hover {
   width: 2px;
   background: var(--light-color);
 }
-
 .current {
   position: absolute;
   left: -120px;
@@ -64,6 +64,24 @@ a:hover {
   color: var(--light-color);
   letter-spacing: 0.5rem;
   text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .container {
+      max-width: 573px;
+  }
+}
+
+@media (max-width: 567px) {
+  h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .lead {
+    width: 311px;
+  }
 }
 
 

@@ -5,17 +5,26 @@ import imageHeroFederal from '../assets/home/desktop/image-hero-federal.jpg';
 import imageHeroParamour from '../assets/home/desktop/image-hero-paramour.jpg';
 import imageHeroSeraph from '../assets/home/desktop/image-hero-seraph.jpg';
 import imageHeroTrinity from '../assets/home/desktop/image-hero-trinity.jpg';
+import imageTabletParamour from '../assets/home/tablet/image-hero-paramour.jpg';
+import imageTabletSeraph from '../assets/home/tablet/image-hero-seraph.jpg';
+import imageMobileParamour from '../assets/home/mobile/image-hero-paramour.jpg';
+import imageMobileSeraph from '../assets/home/mobile/image-hero-seraph.jpg';
+
 import '../styles/HomeCarousel.css';
 
 const HomeCarousel = () => {
   return (
     <Carousel controls={false}>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={imageHeroParamour}
-          alt="First slide"
-        />
+        <picture>
+          <source srcSet={imageHeroParamour} media="(min-width: 1024px)" />
+          <source srcSet={imageTabletParamour} media="(min-width: 768px)" />
+          <img
+            className="d-block w-100"
+            src={imageMobileParamour}
+            alt="paramour"
+          />
+        </picture>
         <Carousel.Caption>
           <h1>Project Paramour</h1>
           <p className="py-2 lead">
@@ -26,11 +35,15 @@ const HomeCarousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={imageHeroSeraph}
-          alt="Second slide"
-        />
+        <picture>
+          <source srcSet={imageHeroSeraph} media="(min-width: 1100px)" />
+          <source srcSet={imageTabletSeraph} media="(min-width: 768px)" />
+          <img
+            className="d-block w-100"
+            src={imageMobileSeraph}
+            alt="paramour"
+          />
+        </picture>
 
         <Carousel.Caption>
           <h1>Seraph Station</h1>

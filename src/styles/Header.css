@@ -1,3 +1,12 @@
-.nav {
+.Navbar {
     height: 152px;
+    z-index: 99;
+    
+}
+
+@media (max-width: 567px) {
+    .Navbar {
+        height: 96px;
+        width: 100%;
+    }
 }

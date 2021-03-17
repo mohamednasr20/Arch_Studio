@@ -7,7 +7,7 @@ import '../styles/Header.css';
 
 const Header = () => {
   return (
-    <Navbar className="nav px-0 py-4" collapseOnSelect expand="md">
+    <Navbar className="Navbar px-0 py-4" collapseOnSelect expand="md">
       <Link to="/">
         <Navbar.Brand>
           <img src={logo} alt="logo" />
@@ -16,7 +16,7 @@ const Header = () => {
 
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="mr-auto ml-3">
+        <Nav className="mr-auto ml-3 bg-light">
           <Link to="/portfolio" className="px-3">
             Portfolio
           </Link>
