@@ -1,86 +1,80 @@
-.carousel-item img  {
+.carousel-item img {
   filter: brightness(70%);
-} 
-
-
+}
 
 .carousel-caption {
- top: 180px;
- left: 190px;
- width: 544px;
- text-align: left;
+  top: 180px;
+  left: 190px;
+  width: 544px;
+  text-align: left;
 }
 
 .carousel-indicators {
   justify-content: flex-start;
   margin: 0;
-  transform: translateX(-80px);  
+  transform: translateX(-80px);
   counter-reset: item-name;
 }
 
 .carousel-indicators li {
   position: relative;
-    padding: 30px;
-    margin: 0;
-    opacity: 1;
-    text-indent: 0;
-    background: #fff;
-  }
+  padding: 30px;
+  margin: 0;
+  opacity: 1;
+  text-indent: 0;
+  background: #fff;
+}
 
-  .carousel-indicators li::before{
-    counter-increment: item-name;
-    content: "0" counter(item-name);
-    position: absolute;
-    left: 0;
-    top: 30%;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    color: var(--dark-color);
-    
-  }
+.carousel-indicators li::before {
+  counter-increment: item-name;
+  content: '0' counter(item-name);
+  position: absolute;
+  left: 0;
+  top: 30%;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: var(--dark-color);
+}
 
-  .carousel-indicators li.active {
-    background: var(--main-color);
-    
-  }
+.carousel-indicators li.active {
+  background: var(--main-color);
+}
 
-  .carousel-indicators li:hover {
-    background: var(--light-color);
-    
-  }
+.carousel-indicators li:hover {
+  background: var(--light-color);
+}
 
-  .carousel-indicators li.active::before {
-    color: #fff;
-  }
+.carousel-indicators li.active::before {
+  color: #fff;
+}
 
-  @media (max-width: 1024px) {
-    .carousel-item img {
-      padding: 0;
-    }
-    .carousel-caption {
-      width: 457px;
-      top: 90px;
-      left: 58px;
-    }
-    .carousel-indicators {
-      display: none;
-    }
+@media (max-width: 1024px) {
+  .carousel-item img {
+    padding: 0;
   }
-
-  @media (max-width: 567px) {
-    .carousel-caption {
-      max-width: 311px;
-      top: 90px;
-      left: 32px;
-    }
+  .carousel-caption {
+    width: 457px;
+    top: 90px;
+    left: 58px;
   }
+  .carousel-indicators {
+    display: none;
+  }
+}
 
-  
-  
-  
-  
-  
-  
-  
-  
+@media (max-width: 768px) {
+  .carousel-caption {
+    max-width: 311px;
+    top: 90px;
+    left: 32px;
+  }
+}
+
+@media (max-width: 376px) {
+  .carousel-caption {
+    max-width: 250px;
+    top: 60px;
+    left: 20px;
+  }
+}

@@ -3,6 +3,21 @@
   z-index: 99;
 }
 
+.Navbar-link-active {
+  color: var(--main-color);
+  position: relative;
+}
+
+.Navbar-link-active::after {
+  position: absolute;
+  content: '';
+  top: 30px;
+  left: 35%;
+  width: 20px;
+  height: 2px;
+  background: var(--main-color);
+}
+
 @media (max-width: 567px) {
   .Navbar {
     height: 96px;

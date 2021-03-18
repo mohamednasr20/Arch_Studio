@@ -82,3 +82,15 @@ a:hover {
     width: 311px;
   }
 }
+
+@media (max-width: 376px) {
+  h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .lead {
+    width: 280px;
+  }
+}
