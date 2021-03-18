@@ -7,23 +7,22 @@ import '../styles/Header.css';
 
 const Header = () => {
   return (
-    <Navbar className="Navbar px-0 py-4" collapseOnSelect expand="md">
+    <Navbar className="Navbar pl-0" expand="md">
       <Link to="/">
         <Navbar.Brand>
           <img src={logo} alt="logo" />
         </Navbar.Brand>
       </Link>
-
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="Navbar-links mr-auto ml-3 bg-light">
-          <Link to="/portfolio" className="px-3">
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="m-md-4 p-3 Navbar-links">
+          <Link className="mr-3 py-4 py-md-0" to="/portfolio">
             Portfolio
           </Link>
-          <Link to="/about" className="px-3">
+          <Link className="mr-3 py-4 py-md-0" to="/about">
             About Us
           </Link>
-          <Link to="/contact" className="px-3">
+          <Link className="mr-3 py-4 py-md-0" to="/portfolio">
             Contact
           </Link>
         </Nav>
