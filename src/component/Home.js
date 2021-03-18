@@ -4,6 +4,7 @@ import HomeCarousel from './HomeCarousel';
 function Home() {
   return (
     <>
+      <div className="current">Home</div>
       <HomeCarousel />
     </>
   );
