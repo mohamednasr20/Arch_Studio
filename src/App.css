@@ -42,13 +42,13 @@ a:hover {
   position: relative;
 }
 
-.container::before {
+.current::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: -5%;
-  height: 100px;
-  width: 2px;
+  top: 4px;
+  left: -150%;
+  height: 1px;
+  width: 100px;
   background: var(--light-color);
 }
 .current {
@@ -67,7 +67,7 @@ a:hover {
     max-width: 573px;
   }
   .current {
-    left: -13%;
+    left: -15%;
   }
 }
 

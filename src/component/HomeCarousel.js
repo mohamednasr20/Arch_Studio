@@ -7,8 +7,12 @@ import imageHeroSeraph from '../assets/home/desktop/image-hero-seraph.jpg';
 import imageHeroTrinity from '../assets/home/desktop/image-hero-trinity.jpg';
 import imageTabletParamour from '../assets/home/tablet/image-hero-paramour.jpg';
 import imageTabletSeraph from '../assets/home/tablet/image-hero-seraph.jpg';
+import imageTabletFedral from '../assets/home/tablet/image-hero-federal.jpg';
+import imageTabletTrinity from '../assets/home/tablet/image-hero-trinity.jpg';
 import imageMobileParamour from '../assets/home/mobile/image-hero-paramour.jpg';
 import imageMobileSeraph from '../assets/home/mobile/image-hero-seraph.jpg';
+import imageMobileFedral from '../assets/home/mobile/image-hero-federal.jpg';
+import imageMobileTrinity from '../assets/home/mobile/image-hero-trinity.jpg';
 
 import '../styles/HomeCarousel.css';
 
@@ -38,11 +42,7 @@ const HomeCarousel = () => {
         <picture>
           <source srcSet={imageHeroSeraph} media="(min-width: 1100px)" />
           <source srcSet={imageTabletSeraph} media="(min-width: 768px)" />
-          <img
-            className="d-block w-100"
-            src={imageMobileSeraph}
-            alt="paramour"
-          />
+          <img className="d-block w-100" src={imageMobileSeraph} alt="seraph" />
         </picture>
 
         <Carousel.Caption>
@@ -56,11 +56,11 @@ const HomeCarousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={imageHeroFederal}
-          alt="Third slide"
-        />
+        <picture>
+          <source srcSet={imageHeroFederal} media="(min-width: 1100px)" />
+          <source srcSet={imageTabletFedral} media="(min-width: 768px)" />
+          <img className="d-block w-100" src={imageMobileFedral} alt="fedral" />
+        </picture>
 
         <Carousel.Caption>
           <h1>Federal II Tower</h1>
@@ -73,11 +73,15 @@ const HomeCarousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={imageHeroTrinity}
-          alt="Second slide"
-        />
+        <picture>
+          <source srcSet={imageHeroTrinity} media="(min-width: 1100px)" />
+          <source srcSet={imageTabletTrinity} media="(min-width: 768px)" />
+          <img
+            className="d-block w-100"
+            src={imageMobileTrinity}
+            alt="trinity"
+          />
+        </picture>
 
         <Carousel.Caption>
           <h1>Trinity Bank Tower</h1>
