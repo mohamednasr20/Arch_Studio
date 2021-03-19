@@ -7,10 +7,10 @@ import '../styles/Header.css';
 
 const Header = () => {
   return (
-    <Navbar className="Navbar pl-0" expand="md">
+    <Navbar className="Navbar ml-4" expand="md">
       <NavLink to="/">
         <Navbar.Brand>
-          <img src={logo} alt="logo" />
+          <img src={logo} className="pl-0" alt="logo" />
         </Navbar.Brand>
       </NavLink>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

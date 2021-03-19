@@ -1,5 +1,6 @@
 .carousel-item img {
-  filter: brightness(70%);
+  filter: brightness(60%);
+  padding-left: 0;
 }
 
 .carousel-caption {
@@ -12,7 +13,7 @@
 .carousel-indicators {
   justify-content: flex-start;
   margin: 0;
-  transform: translateX(-80px);
+  transform: translateX(-90px);
   counter-reset: item-name;
 }
 
