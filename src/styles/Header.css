@@ -27,8 +27,10 @@
   .Navbar-links {
     background: #fff;
     padding: auto;
-    min-width: 100vw;
-    min-height: 70vh;
     text-align: center;
+  }
+
+  .Navbar button {
+    margin-right: 10px !important;
   }
 }

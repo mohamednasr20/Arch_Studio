@@ -7,9 +7,9 @@ import '../styles/Header.css';
 
 const Header = () => {
   return (
-    <Navbar className="Navbar mx-0" expand="md">
+    <Navbar className="Navbar mx-0 px-0" expand="md">
       <NavLink to="/">
-        <Navbar.Brand>
+        <Navbar.Brand className="pl-3">
           <img src={logo} className="pl-0" alt="logo" />
         </Navbar.Brand>
       </NavLink>
