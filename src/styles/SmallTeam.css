@@ -1,0 +1,37 @@
+.SmallTeam {
+  position: relative;
+  padding: 60px 0;
+}
+
+.SmallTeam img {
+  filter: brightness(60%);
+  padding: 0;
+}
+
+.SmallTeam-content {
+  position: absolute;
+  z-index: 3;
+  left: 190px;
+  top: 35%;
+}
+
+.SmallTeam-content h3 {
+  color: #ffffff;
+  width: 445px;
+}
+
+@media (max-width: 1024px) {
+  .SmallTeam-content {
+    left: 58px;
+  }
+}
+
+@media (max-width: 768px) {
+  .SmallTeam-content h3 {
+    width: 320px;
+  }
+
+  .SmallTeam img {
+    width: 100%;
+  }
+}

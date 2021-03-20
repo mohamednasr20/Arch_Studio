@@ -15,7 +15,7 @@ const Header = () => {
       </NavLink>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="m-md-5 p-4 Navbar-links">
+        <Nav className="m-md-3 m-lg-5 p-4 Navbar-links">
           <NavLink
             className="mr-md-4 pr-md-4 py-4 py-md-0"
             activeClassName="Navbar-link-active"

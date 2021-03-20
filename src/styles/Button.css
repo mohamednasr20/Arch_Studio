@@ -1,18 +1,26 @@
 .Button {
-    padding: 20px 25px;
-    background: var(--main-color);
-    color: #fff;
-    border: none;
-  }
+  padding: 20px 25px;
+  background: var(--main-color);
+  color: #fff;
+  border: none;
+  display: flex;
+}
 
-  .Button:hover {
-     background: var(--dark-color);
-  }
+.Button:hover {
+  background: var(--dark-color);
+}
 
- .Button:active {
-     background: var(--medium-color);
- }
+.Button:active {
+  background: var(--medium-color);
+}
 
-  img {
-      padding-left: 10px;
+img {
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .Button {
+    padding: 10px 15px;
+    font-size: small;
   }
+}
