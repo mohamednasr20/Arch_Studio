@@ -1,6 +1,9 @@
+.Welcome {
+  padding: 60px 0;
+}
+
 .Welcome-content {
   width: 445px;
-  /* transform: translateX(40px); */
   margin-left: 40px;
 }
 
@@ -19,4 +22,42 @@
   line-height: 56px;
   letter-spacing: -2px;
   color: var(--main-color);
+}
+
+@media (max-width: 1024px) {
+  .Welcome-content {
+    width: 572px;
+
+    margin-left: 0;
+    margin: auto;
+    text-align: left;
+  }
+  .Welcome h1 {
+    font-size: 120px;
+    letter-spacing: -3px;
+    transform: translateY(0);
+  }
+  .Welcome h3 {
+    width: 445px;
+  }
+  .Welcome p {
+    color: var(--dark-color);
+  }
+}
+
+@media (max-width: 568px) {
+  .Welcome-content {
+    width: 311px;
+    padding-top: 50px;
+  }
+  .Welcome h1 {
+    display: none;
+  }
+
+  .Welcome h3 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1.48px;
+    width: 311px;
+  }
 }

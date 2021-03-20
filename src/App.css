@@ -83,6 +83,10 @@ a:hover {
   }
 }
 
+.current {
+  display: none;
+}
+
 @media (max-width: 376px) {
   h1 {
     font-weight: 700;
