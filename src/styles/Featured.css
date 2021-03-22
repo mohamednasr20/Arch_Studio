@@ -10,6 +10,31 @@
   opacity: 0.6;
 }
 
+.Featured {
+  counter-reset: item-name;
+}
+
+.Featured .ImageCard {
+  position: relative;
+}
+
+.Featured .ImageCard::before {
+  counter-increment: item-name;
+  content: counter(item-name);
+  position: absolute;
+  top: 20px;
+  right: 0;
+  font-size: 220px;
+  line-height: 220px;
+  z-index: 3;
+  color: var(--light-color);
+  opacity: 0.6;
+}
+
+.imgDiv {
+  max-width: 100%;
+}
+
 @media (max-width: 567px) {
   .Featured {
     width: 311px;
@@ -21,5 +46,9 @@
 
   .Featured .w-100 button {
     min-width: 100%;
+  }
+
+  .Featured .ImageCard::before {
+    display: none;
   }
 }

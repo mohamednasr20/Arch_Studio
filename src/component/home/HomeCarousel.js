@@ -15,6 +15,7 @@ import imageMobileFedral from '../../assets/home/mobile/image-hero-federal.jpg';
 import imageMobileTrinity from '../../assets/home/mobile/image-hero-trinity.jpg';
 
 import '../../styles/HomeCarousel.css';
+import { Link } from 'react-router-dom';
 
 const HomeCarousel = () => {
   return (
@@ -35,7 +36,9 @@ const HomeCarousel = () => {
             Project made for an art museum near Southwest London. Project
             Paramour is a statement of bold, modern architecture.
           </p>
-          <Button text="See Our Portfolio" />
+          <Link to="/portfolio">
+            <Button text="See Our Portfolio" />
+          </Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -52,7 +55,9 @@ const HomeCarousel = () => {
             that would transport people through time. The result is a fresh and
             futuristic model inspired by space stations.
           </p>
-          <Button text="See Our Portfolio" />
+          <Link to="/portfolio">
+            <Button text="See Our Portfolio" />
+          </Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -69,7 +74,9 @@ const HomeCarousel = () => {
             achieved this with a striking look of brutal minimalism with modern
             touches.
           </p>
-          <Button text="See Our Portfolio" />
+          <Link to="/portfolio">
+            <Button text="See Our Portfolio" />
+          </Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -91,7 +98,9 @@ const HomeCarousel = () => {
             For this project we used curves to blend design and stability to
             meet our objectives.
           </p>
-          <Button text="See Our Portfolio" />
+          <Link to="/portfolio">
+            <Button text="See Our Portfolio" />
+          </Link>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

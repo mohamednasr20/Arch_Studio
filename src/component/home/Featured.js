@@ -56,16 +56,16 @@ const Featured = () => {
     <div className="Featured m-auto">
       <div className="Featured-header d-flex justify-content-between">
         <h3>Featured</h3>
-        <Link to="/portofolio" className="d-none d-md-block">
+        <Link to="/portfolio" className="d-none d-md-block">
           <Button text="See All" />
         </Link>
       </div>
-      <Row lg={3} className="my-4">
+      <Row lg={3} className="my-4 imgDiv">
         {imagesDiv}
       </Row>
-      <div className="d-md-none w-100 m-auto">
+      <Link to="/portfolio" className="d-md-none w-100 m-auto">
         <Button text="See All" />
-      </div>
+      </Link>
     </div>
   );
 };
