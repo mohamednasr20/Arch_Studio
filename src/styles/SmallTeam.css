@@ -3,7 +3,8 @@
   padding: 60px 0;
 }
 
-.SmallTeam img {
+.SmallTeam-img {
+  width: 100%;
   filter: brightness(60%);
   padding: 0;
 }
@@ -29,9 +30,5 @@
 @media (max-width: 768px) {
   .SmallTeam-content h3 {
     width: 320px;
-  }
-
-  .SmallTeam-img {
-    width: 100%;
   }
 }

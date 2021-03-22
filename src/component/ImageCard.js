@@ -1,11 +1,15 @@
 import React from 'react';
 import '../styles/ImageCard.css';
 
-const ImageCard = ({ img, title, caption }) => {
+const ImageCard = ({ imgDesktop, imgMobile, imgTablet, title, caption }) => {
   return (
     <div className="ImageCard">
-      <img src={img} alt={title} />
-      <div className="ImageCard-text p-5">
+      <picture>
+        <source srcSet={imgDesktop} media="(min-width: 1024px)" />
+        <source srcSet={imgTablet} media="(min-width: 768px)" />
+        <img className="ml-0" src={imgMobile} alt={title} />
+      </picture>
+      <div className="ImageCard-text">
         <h5>{title}</h5>
         <p>{caption}</p>
       </div>

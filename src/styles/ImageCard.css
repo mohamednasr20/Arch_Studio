@@ -8,7 +8,18 @@
 
 .ImageCard-text {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 5%;
+  left: 5%;
   color: #ffffff;
+}
+
+.ImageCard-text h5 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.ImageCard-text p {
+  color: #ffffff;
+  opacity: 0.7;
 }
