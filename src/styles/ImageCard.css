@@ -1,0 +1,14 @@
+.ImageCard {
+  position: relative;
+}
+
+.ImageCard img {
+  filter: brightness(60%);
+}
+
+.ImageCard-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #ffffff;
+}

@@ -7,7 +7,7 @@ const Welcome = () => {
     <div className="Welcome">
       <h1>Welcome</h1>
       <div className="d-lg-flex">
-        <div className="Welcome-content align-self-end ml-auto">
+        <div className="Welcome-content align-self-end ml-lg-auto px-md-4">
           <h3 className="mb-3">Welcome to Arch Studio</h3>
           <div className="lead  mb-0 pt-3">
             <p className="mt-4">

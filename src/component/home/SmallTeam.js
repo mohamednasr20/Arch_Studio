@@ -10,12 +10,16 @@ const SmallTeam = () => {
     <div className="SmallTeam">
       <div className="SmallTeam-content">
         <h3 className="mb-5">Small team, big ideas</h3>
-        <Button text="About us" />
+        <Button text="About Us" />
       </div>
       <picture>
         <source srcSet={smallTeamImg} media="(min-width: 1024px)" />
         <source srcSet={smallTeamTabletImg} media="(min-width: 768px)" />
-        <img src={smallTeamMobileImg} alt="small-team" />
+        <img
+          className="mx-0 SmallTeam-img"
+          src={smallTeamMobileImg}
+          alt="small-team"
+        />
       </picture>
     </div>
   );

@@ -27,8 +27,6 @@
 @media (max-width: 1024px) {
   .Welcome-content {
     width: 572px;
-
-    margin-left: 0;
     margin: auto;
     text-align: left;
   }
@@ -47,8 +45,9 @@
 
 @media (max-width: 568px) {
   .Welcome-content {
-    width: 311px;
+    max-width: 311px;
     padding-top: 50px;
+    padding: 20px;
   }
   .Welcome h1 {
     display: none;
