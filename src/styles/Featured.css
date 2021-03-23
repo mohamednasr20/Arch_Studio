@@ -44,10 +44,6 @@
     width: 311px;
   }
 
-  .Featured .w-100 button {
-    min-width: 100%;
-  }
-
   .Featured .ImageCard::before {
     display: none;
   }

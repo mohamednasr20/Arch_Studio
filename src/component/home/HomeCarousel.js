@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../../component/Button';
+import Button from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel';
 import imageHeroFederal from '../../assets/home/desktop/image-hero-federal.jpg';
 import imageHeroParamour from '../../assets/home/desktop/image-hero-paramour.jpg';
@@ -13,7 +13,7 @@ import imageMobileParamour from '../../assets/home/mobile/image-hero-paramour.jp
 import imageMobileSeraph from '../../assets/home/mobile/image-hero-seraph.jpg';
 import imageMobileFedral from '../../assets/home/mobile/image-hero-federal.jpg';
 import imageMobileTrinity from '../../assets/home/mobile/image-hero-trinity.jpg';
-
+import arrow from '../../assets/icons/icon-arrow.svg';
 import '../../styles/HomeCarousel.css';
 import { Link } from 'react-router-dom';
 
@@ -37,7 +37,9 @@ const HomeCarousel = () => {
             Paramour is a statement of bold, modern architecture.
           </p>
           <Link to="/portfolio">
-            <Button text="See Our Portfolio" />
+            <Button>
+              See Our Portfolio <img className="ml-2" src={arrow} alt="arrow" />
+            </Button>{' '}
           </Link>
         </Carousel.Caption>
       </Carousel.Item>
@@ -56,7 +58,9 @@ const HomeCarousel = () => {
             futuristic model inspired by space stations.
           </p>
           <Link to="/portfolio">
-            <Button text="See Our Portfolio" />
+            <Button>
+              See Our Portfolio <img className="ml-2" src={arrow} alt="arrow" />
+            </Button>{' '}
           </Link>
         </Carousel.Caption>
       </Carousel.Item>
@@ -75,7 +79,9 @@ const HomeCarousel = () => {
             touches.
           </p>
           <Link to="/portfolio">
-            <Button text="See Our Portfolio" />
+            <Button>
+              See Our Portfolio <img className="ml-2" src={arrow} alt="arrow" />
+            </Button>{' '}
           </Link>
         </Carousel.Caption>
       </Carousel.Item>
@@ -99,7 +105,9 @@ const HomeCarousel = () => {
             meet our objectives.
           </p>
           <Link to="/portfolio">
-            <Button text="See Our Portfolio" />
+            <Button>
+              See Our Portfolio <img className="ml-2" src={arrow} alt="arrow" />
+            </Button>{' '}
           </Link>
         </Carousel.Caption>
       </Carousel.Item>

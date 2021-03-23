@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../Button';
+import Button from 'react-bootstrap/Button';
 import ImageCard from '../ImageCard';
 import { Link } from 'react-router-dom';
 import Row from 'react-bootstrap/Row';
@@ -13,6 +13,8 @@ import img228bMobile from '../../assets/portfolio/mobile/image-228b.jpg';
 import prototype from '../../assets/portfolio/desktop/image-prototype.jpg';
 import prototypeTablet from '../../assets/portfolio/tablet/image-prototype.jpg';
 import prototypeMobile from '../../assets/portfolio/mobile/image-prototype.jpg';
+import arrow from '../../assets/icons/icon-arrow.svg';
+
 import '../../styles/Featured.css';
 
 const Featured = () => {
@@ -57,14 +59,18 @@ const Featured = () => {
       <div className="Featured-header d-flex justify-content-between">
         <h3>Featured</h3>
         <Link to="/portfolio" className="d-none d-md-block">
-          <Button text="See All" />
+          <Button>
+            See All <img className="ml-2" src={arrow} alt="arrow" />
+          </Button>{' '}
         </Link>
       </div>
       <Row lg={3} className="my-4 imgDiv">
         {imagesDiv}
       </Row>
       <Link to="/portfolio" className="d-md-none w-100 m-auto">
-        <Button text="See All" />
+        <Button block>
+          See All <img className="ml-2" src={arrow} alt="arrow" />
+        </Button>{' '}
       </Link>
     </div>
   );

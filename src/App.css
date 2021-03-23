@@ -69,12 +69,27 @@ a:hover {
   text-transform: uppercase;
 }
 
+.btn {
+  background: var(--main-color);
+  border: none;
+  border-radius: 0px;
+  padding: 25px 30px;
+}
+
+.btn:hover {
+  background: var(--dark-color);
+}
+
 @media (max-width: 768px) {
   .container {
     max-width: 573px;
   }
   .current {
     left: -15%;
+  }
+
+  .btn {
+    padding: 15px 20px;
   }
 }
 
