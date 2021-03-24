@@ -7,7 +7,7 @@ import '../styles/Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="Footer">
+    <footer className="Footer container-lg">
       <Link to="/">
         <div className="Footer-logo">
           <img src={logo} alt="logo" />
@@ -16,10 +16,10 @@ const Footer = () => {
 
       <ul className="Footer-links">
         <Link to="/portfolio">
-          <li className="Footer-link mx-lg-4 mx-2">Portfolio</li>
+          <li className="Footer-link">Portfolio</li>
         </Link>
         <Link to="/about">
-          <li className="Footer-link mx-lg-4">About Us</li>
+          <li className="Footer-link mx-lg-4 mx-1">About Us</li>
         </Link>
         <Link to="/contact">
           <li className="Footer-link mx-lg-4">Contact</li>

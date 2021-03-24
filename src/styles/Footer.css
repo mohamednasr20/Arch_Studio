@@ -1,6 +1,7 @@
 .Footer {
   display: flex;
   height: 200px;
+  padding: 0;
 }
 
 .Footer-logo {
@@ -11,6 +12,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .Footer-links {
@@ -19,6 +22,7 @@
   width: 784px;
   min-height: 100%;
   align-items: center;
+  justify-content: space-between;
   padding-left: 100px;
 }
 
@@ -37,16 +41,25 @@
 @media (max-width: 1024px) {
   .Footer {
     height: 120px;
+    margin: 0;
+    padding: 0;
   }
+
   .Footer-logo {
     width: 120px;
   }
 
   .Footer-links {
     width: 492px;
+    padding-left: 10px;
+  }
+
+  .Footer-link {
+    margin-right: 10px;
+    transform: translateX(50px);
   }
 
   .Footer-links button {
-    transform: translateX(150px);
+    transform: translateX(80px);
   }
 }
