@@ -38,6 +38,10 @@ a:hover {
   color: var(--medium-color);
 }
 
+li {
+  list-style: none;
+}
+
 .lead {
   font-size: 15px;
   font-weight: 500;
