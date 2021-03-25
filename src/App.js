@@ -12,7 +12,7 @@ import Contact from './component/Contact';
 
 const App = () => {
   return (
-    <>
+    <div className="App">
       <Router>
         <Container className="p-0 ">
           <Header />
@@ -34,7 +34,7 @@ const App = () => {
 
         <Footer />
       </Router>
-    </>
+    </div>
   );
 };
 

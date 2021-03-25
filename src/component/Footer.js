@@ -8,26 +8,30 @@ import '../styles/Footer.css';
 const Footer = () => {
   return (
     <footer className="Footer container-lg">
-      <div className="Footer-flex">
+      <div className="Footer-flex mb-4">
         <Link to="/">
           <div className="Footer-logo">
             <img src={logo} alt="logo" />
           </div>
         </Link>
         <ul className="Footer-links">
-          <Link to="/portfolio">
-            <li className="Footer-link mx-4 ">Portfolio</li>
-          </Link>
-          <Link to="/about">
-            <li className="Footer-link mx-4">About Us</li>
-          </Link>
-          <Link to="/contact">
-            <li className="Footer-link mx-4 ">Contact</li>
-          </Link>
+          <li className="Footer-link mx-4 ">
+            <Link to="/portfolio">Portfolio </Link>
+          </li>
+
+          <li className="Footer-link mx-4">
+            <Link to="/about">About Us</Link>
+          </li>
+
+          <li className="Footer-link mx-4 ">
+            <Link to="/contact">Contact</Link>
+          </li>
         </ul>
       </div>
       <Button>
-        See Our Portfolio <img className="ml-2" src={arrow} alt="arrow" />
+        <Link to="/portfolio">
+          See Our Portfolio <img className="ml-2" src={arrow} alt="arrow" />
+        </Link>
       </Button>{' '}
     </footer>
   );
