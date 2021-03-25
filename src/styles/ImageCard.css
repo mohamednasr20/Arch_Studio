@@ -4,6 +4,7 @@
 
 .ImageCard img {
   filter: brightness(85%);
+  min-width: 100%;
 }
 
 .ImageCard-text {
