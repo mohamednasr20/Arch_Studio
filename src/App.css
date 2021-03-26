@@ -58,19 +58,21 @@ li {
   position: absolute;
   top: 4px;
   left: -150%;
-  height: 1px;
+  height: 2px;
   width: 100px;
   background: var(--light-color);
 }
 .current {
   position: absolute;
-  left: -10%;
-  top: 160px;
+  left: -15%;
+  top: 150px;
   transform: rotate(90deg);
   margin-bottom: 0;
   color: var(--light-color);
   letter-spacing: 0.5rem;
   text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
 }
 
 .btn {
