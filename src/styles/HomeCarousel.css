@@ -10,6 +10,14 @@
   text-align: left;
 }
 
+.carousel-caption button {
+  margin-top: 25px;
+}
+
+.carousel-caption a {
+  color: #ffffff;
+}
+
 .carousel-indicators {
   justify-content: flex-start;
   margin: 0;

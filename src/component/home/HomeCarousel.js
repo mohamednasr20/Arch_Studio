@@ -36,11 +36,11 @@ const HomeCarousel = () => {
             Project made for an art museum near Southwest London. Project
             Paramour is a statement of bold, modern architecture.
           </p>
-          <Link to="/portfolio">
-            <Button>
+          <Button>
+            <Link to="/portfolio">
               See Our Portfolio <img className="ml-2" src={arrow} alt="arrow" />
-            </Button>{' '}
-          </Link>
+            </Link>
+          </Button>{' '}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -57,11 +57,11 @@ const HomeCarousel = () => {
             that would transport people through time. The result is a fresh and
             futuristic model inspired by space stations.
           </p>
-          <Link to="/portfolio">
-            <Button>
+          <Button>
+            <Link to="/portfolio">
               See Our Portfolio <img className="ml-2" src={arrow} alt="arrow" />
-            </Button>{' '}
-          </Link>
+            </Link>
+          </Button>{' '}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -78,11 +78,11 @@ const HomeCarousel = () => {
             achieved this with a striking look of brutal minimalism with modern
             touches.
           </p>
-          <Link to="/portfolio">
-            <Button>
+          <Button>
+            <Link to="/portfolio">
               See Our Portfolio <img className="ml-2" src={arrow} alt="arrow" />
-            </Button>{' '}
-          </Link>
+            </Link>
+          </Button>{' '}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -104,11 +104,11 @@ const HomeCarousel = () => {
             For this project we used curves to blend design and stability to
             meet our objectives.
           </p>
-          <Link to="/portfolio">
-            <Button>
+          <Button>
+            <Link to="/portfolio">
               See Our Portfolio <img className="ml-2" src={arrow} alt="arrow" />
-            </Button>{' '}
-          </Link>
+            </Link>
+          </Button>{' '}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
