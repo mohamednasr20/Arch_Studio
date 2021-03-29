@@ -64,7 +64,7 @@ li {
 }
 .current {
   position: absolute;
-  left: -15%;
+  left: -12%;
   top: 150px;
   transform: rotate(90deg);
   margin-bottom: 0;

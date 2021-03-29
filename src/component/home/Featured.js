@@ -18,25 +18,25 @@ import arrow from '../../assets/icons/icon-arrow.svg';
 import '../../styles/Featured.css';
 
 const Featured = () => {
-  const caption = <Link to="/portfolio">View all Projects</Link>;
+  const text = <Link to="/portfolio">View all Projects</Link>;
 
   const images = [
     {
-      imgDesktop: delSol,
-      imgTablet: delSolTablet,
-      imgMobile: delSoMobilet,
+      desktopSrc: delSol,
+      TabletSrc: delSolTablet,
+      MobileSrc: delSoMobilet,
       title: 'Project Del Sol',
     },
     {
-      imgDesktop: img228b,
-      imgTablet: img228bTablet,
-      imgMobile: img228bMobile,
+      desktopSrc: img228b,
+      tabletSrc: img228bTablet,
+      mobileSrc: img228bMobile,
       title: '228B Tower',
     },
     {
-      imgDesktop: prototype,
-      imgTablet: prototypeTablet,
-      imgMobile: prototypeMobile,
+      desktopSrc: prototype,
+      tabletSrc: prototypeTablet,
+      mobileSrc: prototypeMobile,
       title: 'Le Prototype',
     },
   ];
@@ -45,11 +45,11 @@ const Featured = () => {
     return (
       <Col key={img.title} className="my-3">
         <ImageCard
-          imgDesktop={img.imgDesktop}
-          imgTablet={img.imgTablet}
-          imgMobile={img.imgMobile}
+          desktopSrc={img.desktopSrc}
+          tabletSrc={img.tabletSrc}
+          mobileSrc={img.mobileSrc}
           title={img.title}
-          caption={caption}
+          text={text}
         />
       </Col>
     );
