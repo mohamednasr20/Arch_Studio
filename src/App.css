@@ -49,29 +49,9 @@ li {
   width: 445px;
 }
 
-.container {
+/* .container {
   position: relative;
-}
-
-.current::before {
-  content: '';
-  position: absolute;
-  top: 4px;
-  left: -150%;
-  height: 1px;
-  width: 100px;
-  background: var(--light-color);
-}
-.current {
-  position: absolute;
-  left: -12%;
-  top: 150px;
-  transform: rotate(90deg);
-  margin-bottom: 0;
-  color: var(--light-color);
-  letter-spacing: 0.5rem;
-  text-transform: uppercase;
-}
+} */
 
 .btn {
   background: var(--main-color);

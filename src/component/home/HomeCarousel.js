@@ -17,7 +17,7 @@ import arrow from '../../assets/icons/icon-arrow.svg';
 import '../../styles/HomeCarousel.css';
 import { Link } from 'react-router-dom';
 
-const HomeCarousel = () => {
+const HomeCarousel = ({ currentPage }) => {
   return (
     <Carousel controls={false}>
       <Carousel.Item>
@@ -79,7 +79,7 @@ const HomeCarousel = () => {
             touches.
           </p>
           <Button>
-            <Link to="/portfolio">
+            <Link to="/portfolio" onClick={currentPage}>
               See Our Portfolio <img className="ml-2" src={arrow} alt="arrow" />
             </Link>
           </Button>{' '}

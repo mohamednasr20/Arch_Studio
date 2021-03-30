@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import delSol from '../../assets/portfolio/desktop/image-del-sol.jpg';
 import delSolTablet from '../../assets/portfolio/tablet/image-del-sol.jpg';
-import delSoMobilet from '../../assets/portfolio/mobile/image-del-sol.jpg';
+import delSoMobile from '../../assets/portfolio/mobile/image-del-sol.jpg';
 import img228b from '../../assets/portfolio/desktop/image-228b.jpg';
 import img228bTablet from '../../assets/portfolio/tablet/image-228b.jpg';
 import img228bMobile from '../../assets/portfolio/mobile/image-228b.jpg';
@@ -23,8 +23,8 @@ const Featured = () => {
   const images = [
     {
       desktopSrc: delSol,
-      TabletSrc: delSolTablet,
-      MobileSrc: delSoMobilet,
+      tabletSrc: delSolTablet,
+      mobileSrc: delSoMobile,
       title: 'Project Del Sol',
     },
     {

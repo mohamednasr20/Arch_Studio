@@ -8,7 +8,7 @@ import '../styles/Footer.css';
 const Footer = () => {
   return (
     <footer className="Footer container-lg">
-      <div className="Footer-flex mb-4">
+      <div className="Footer-flex">
         <Link to="/">
           <div className="Footer-logo">
             <img src={logo} alt="logo" />

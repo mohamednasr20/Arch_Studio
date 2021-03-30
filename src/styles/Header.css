@@ -25,9 +25,10 @@
   }
 
   .Navbar-links {
-    background: #fff;
-    padding: auto;
-    text-align: center;
+    background: var(--very-light-color);
+    transform: translateY(38px);
+    margin-left: 30px;
+    text-align: left;
     font-weight: 700;
   }
 

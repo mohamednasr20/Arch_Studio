@@ -47,7 +47,8 @@
   .Welcome-content {
     max-width: 311px;
     padding-top: 50px;
-    padding: 20px;
+    padding: 15px;
+    margin-left: auto;
   }
   .Welcome h1 {
     display: none;

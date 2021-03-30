@@ -1,0 +1,21 @@
+.CurrentPage {
+  position: absolute;
+  display: flex;
+  color: var(--light-color);
+  left: 5%;
+  top: 0;
+  transform-origin: 0 0;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 15px;
+  font-weight: 500;
+  transform: rotate(90deg);
+}
+
+.CurrentPage-line {
+  height: 2px;
+  width: 100px;
+  margin: auto;
+  background: var(--light-color);
+}

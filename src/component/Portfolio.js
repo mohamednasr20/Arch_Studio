@@ -1,5 +1,6 @@
 import React from 'react';
 import ImageCard from './ImageCard';
+import CurrentPage from './CurrentPage';
 import images from '../images';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -21,8 +22,8 @@ const Portfolio = () => {
   });
   return (
     <section className="Portfolio ">
-      <div className="current">portfolio</div>
-      <Row className="m-auto py-4" lg={3}>
+      <CurrentPage pageName="portfolio" />
+      <Row className="m-auto  py-4 " lg={3}>
         {imagesGrid}
       </Row>
     </section>

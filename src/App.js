@@ -16,6 +16,7 @@ const App = () => {
       <Router>
         <Container className="p-0 ">
           <Header />
+
           <Switch>
             <Route path="/" exact>
               <Home />
