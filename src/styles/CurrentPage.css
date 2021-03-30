@@ -19,3 +19,15 @@
   margin: auto;
   background: var(--light-color);
 }
+
+@media (max-width: 1024px) {
+  .CurrentPage {
+    left: 8%;
+  }
+}
+
+@media (max-width: 567px) {
+  .CurrentPage {
+    display: none;
+  }
+}
