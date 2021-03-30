@@ -12,7 +12,7 @@
   position: absolute;
   content: '';
   top: 30px;
-  left: 35%;
+  left: 25%;
   width: 20px;
   height: 2px;
   background: var(--main-color);

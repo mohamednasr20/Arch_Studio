@@ -3,6 +3,7 @@ import ImageCard from './ImageCard';
 import images from '../images';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import '../styles/Portfolio.css';
 
 const Portfolio = () => {
   const imagesGrid = images.map((img) => {
@@ -19,7 +20,7 @@ const Portfolio = () => {
     );
   });
   return (
-    <section className="Portfolio mx-0 px-0">
+    <section className="Portfolio ">
       <div className="current">portfolio</div>
       <Row className="m-auto py-4" lg={3}>
         {imagesGrid}

@@ -58,7 +58,7 @@ li {
   position: absolute;
   top: 4px;
   left: -150%;
-  height: 2px;
+  height: 1px;
   width: 100px;
   background: var(--light-color);
 }
@@ -71,8 +71,6 @@ li {
   color: var(--light-color);
   letter-spacing: 0.5rem;
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 15px;
 }
 
 .btn {

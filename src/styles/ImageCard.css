@@ -1,5 +1,6 @@
 .ImageCard {
   position: relative;
+  cursor: pointer;
 }
 
 .ImageCard img {
@@ -22,5 +23,5 @@
 
 .ImageCard-text p {
   color: #ffffff;
-  /* opacity: 0.9; */
+  opacity: 0.6;
 }

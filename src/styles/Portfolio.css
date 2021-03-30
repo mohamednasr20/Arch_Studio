@@ -1,0 +1,12 @@
+.Portfolio {
+  margin-bottom: 100px;
+}
+
+.Portfolio .current {
+  top: 200px;
+}
+
+.Portfolio .current::before {
+  left: -150px;
+  width: 120px;
+}
