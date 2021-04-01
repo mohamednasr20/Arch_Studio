@@ -1,10 +1,58 @@
 .Hero {
   position: relative;
+  margin-bottom: 30px;
 }
 
-.Hero-content {
+.Hero h1 {
   position: absolute;
+  right: 35px;
+  bottom: 400px;
+  font-weight: 700;
+  font-size: 200px;
+  line-height: 200px;
+  letter-spacing: -5px;
+  color: var(--very-light-color);
+}
+
+.Hero img {
+  filter: brightness(60%);
+}
+
+.Hero-content-wrapper {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
   bottom: 0;
   right: 0;
   background: #ffffff;
+  height: 503px;
+  width: 650px;
+}
+
+.Hero-content {
+  max-width: 446px;
+}
+
+.Hero-content h3 {
+  margin-bottom: 50px;
+}
+
+.Hero-content .lead {
+  margin-bottom: 0;
+  padding-top: 30px;
+}
+
+@media (max-width: 1024px) {
+  .Hero h1 {
+    right: 3px;
+    bottom: 320px;
+    font-size: 120px;
+    letter-spacing: -3px;
+  }
+  .Hero-content-wrapper {
+    width: 500px;
+    height: 431px;
+  }
 }
