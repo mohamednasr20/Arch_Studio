@@ -7,6 +7,13 @@ import heroMobile from '../assets/about/mobile/image-hero.jpg';
 const ShowCase = () => {
   return (
     <div className="Hero">
+      <div className="Hero-img">
+        <picture>
+          <source srcSet={hero} media="(min-width: 1024px)" />
+          <source srcSet={heroTablet} media="(min-width: 768px)" />
+          <img src={heroMobile} alt="hero" />
+        </picture>
+      </div>
       <div className="Hero-content-wrapper">
         <h1 className="Hero-title">About</h1>
         <div className="Hero-content">
@@ -18,13 +25,6 @@ const ShowCase = () => {
             surroundings.
           </p>
         </div>
-      </div>
-      <div className="Hero-img">
-        <picture>
-          <source srcSet={hero} media="(min-width: 1024px)" />
-          <source srcSet={heroTablet} media="(min-width: 768px)" />
-          <img src={heroMobile} alt="hero" />
-        </picture>
       </div>
     </div>
   );

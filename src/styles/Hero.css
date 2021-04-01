@@ -52,7 +52,35 @@
     letter-spacing: -3px;
   }
   .Hero-content-wrapper {
-    width: 500px;
+    width: 520px;
     height: 431px;
+  }
+}
+
+@media (max-width: 567px) {
+  .Hero h1 {
+    display: none;
+  }
+
+  .Hero img {
+    width: 100vw;
+  }
+
+  .Hero-content-wrapper {
+    position: static;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50px);
+  }
+
+  .Hero-content h3 {
+    padding: 0 3px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+
+  .Hero-content .lead {
+    padding: 0 3px;
   }
 }
