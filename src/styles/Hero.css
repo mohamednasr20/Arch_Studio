@@ -1,6 +1,6 @@
 .Hero {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 200px;
 }
 
 .Hero h1 {
@@ -58,6 +58,9 @@
 }
 
 @media (max-width: 567px) {
+  .Hero {
+    margin-bottom: 50px;
+  }
   .Hero h1 {
     display: none;
   }
@@ -68,10 +71,9 @@
 
   .Hero-content-wrapper {
     position: static;
-    width: 90vw;
+    width: 100vw;
     justify-content: center;
     align-items: center;
-    transform: translateY(-50px);
   }
 
   .Hero-content h3 {

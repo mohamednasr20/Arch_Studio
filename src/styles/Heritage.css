@@ -1,0 +1,39 @@
+.Heritage {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+
+.Heritage-content {
+  margin-top: 100px;
+}
+
+.Heritage-content p {
+  margin-top: 30px;
+}
+
+.Heritage-img img {
+  filter: brightness(60%);
+}
+
+@media (max-width: 1024px) {
+  .Heritage-content {
+    margin-top: 75px;
+  }
+  .Heritage-content p {
+    min-width: 573px;
+    margin: auto;
+  }
+  .Heritage-img {
+    display: none;
+  }
+}
+
+@media (max-width: 567px) {
+  .Heritage-content {
+    margin: auto;
+  }
+  .Heritage-content p {
+    min-width: 311px;
+  }
+}

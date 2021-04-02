@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Header from './component/Header';
 import Footer from './component/Footer';
 import Home from './component/home/Home';
-import About from './component/About';
+import About from './component/about/About';
 import Portfolio from './component/Portfolio';
 import Contact from './component/Contact';
 

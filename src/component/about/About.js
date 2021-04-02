@@ -1,9 +1,10 @@
 import React from 'react';
-import Hero from '../component/Hero';
-import CurrentPage from '../component/CurrentPage';
-import hero from '../assets/about/desktop/image-hero.jpg';
-import heroTablet from '../assets/about/tablet/image-hero.jpg';
-import heroMobile from '../assets/about/mobile/image-hero.jpg';
+import Hero from '../../component/Hero';
+import CurrentPage from '../../component/CurrentPage';
+import Heritage from './Heritage';
+import hero from '../../assets/about/desktop/image-hero.jpg';
+import heroTablet from '../../assets/about/tablet/image-hero.jpg';
+import heroMobile from '../../assets/about/mobile/image-hero.jpg';
 
 const About = () => {
   const images = {
@@ -24,6 +25,7 @@ const About = () => {
         subtitle="Your team of professionals"
         description={description}
       />
+      <Heritage />
     </section>
   );
 };
