@@ -5,6 +5,7 @@ import Heritage from './Heritage';
 import hero from '../../assets/about/desktop/image-hero.jpg';
 import heroTablet from '../../assets/about/tablet/image-hero.jpg';
 import heroMobile from '../../assets/about/mobile/image-hero.jpg';
+import Leaders from './Leaders';
 
 const About = () => {
   const images = {
@@ -26,6 +27,7 @@ const About = () => {
         description={description}
       />
       <Heritage />
+      <Leaders />
     </section>
   );
 };

@@ -14,7 +14,11 @@
   color: var(--very-light-color);
 }
 
-.Hero img {
+.Hero-img {
+  position: relative;
+}
+
+.Hero-img img {
   filter: brightness(60%);
 }
 
@@ -63,6 +67,17 @@
   }
   .Hero h1 {
     display: none;
+  }
+
+  .Hero-img::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -1px;
+    width: 90%;
+    height: 46px;
+    background: #ffffff;
+    z-index: 3;
   }
 
   .Hero img {
