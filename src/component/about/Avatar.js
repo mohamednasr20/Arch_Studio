@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 
 const Avatar = ({ img, name, description }) => {
   return (
-    <Col className="Avatar">
+    <Col className="Avatar mr-md-3 mx-lg-3  my-4">
       <div className="Avatar-img">
         <img src={img} alt="avatar" />
         <div className="Avatar-icons">

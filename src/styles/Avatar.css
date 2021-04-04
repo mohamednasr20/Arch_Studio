@@ -1,12 +1,21 @@
+.Avatar {
+  max-width: 350px;
+}
+
 .Avatar-img {
   position: relative;
   cursor: pointer;
+  width: 350px;
+}
+
+.Avatar-img img {
+  max-width: 100%;
 }
 
 .Avatar-icons {
   position: absolute;
-  top: 35%;
-  left: 10%;
+  top: 40%;
+  left: 35%;
   opacity: 0;
   transition: ease-in-out all 0.5s;
 }
@@ -31,11 +40,28 @@
 }
 
 @media (max-width: 1024px) {
+  .Avatar {
+    max-width: 280px;
+  }
+
+  .Avatar-img {
+    width: 280px;
+  }
   .Avatar-icons {
     display: none;
   }
 
   .Avatar-dark-icons {
     display: block;
+  }
+}
+
+@media (max-width: 567px) {
+  .Avatar {
+    width: 311px;
+  }
+
+  .Avatar-img {
+    width: 311px;
   }
 }
