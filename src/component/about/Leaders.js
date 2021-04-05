@@ -53,7 +53,9 @@ const Leaders = () => {
         </h3>
       </Col>
       <Col lg={8}>
-        <Row md={2}>{leadersGrid}</Row>
+        <Row className="Leaders-row" md={2}>
+          {leadersGrid}
+        </Row>
       </Col>
     </Row>
   );

@@ -8,10 +8,6 @@
   width: 350px;
 }
 
-.Avatar-img img {
-  max-width: 100%;
-}
-
 .Avatar-icons {
   position: absolute;
   top: 40%;
@@ -31,10 +27,6 @@
   margin-top: 20px;
 }
 
-.Avatar p {
-  opacity: 60%;
-}
-
 .Avatar-dark-icons {
   display: none;
 }
@@ -47,6 +39,11 @@
   .Avatar-img {
     width: 280px;
   }
+
+  .Avatar-img img {
+    width: 100%;
+  }
+
   .Avatar-icons {
     display: none;
   }
@@ -58,7 +55,9 @@
 
 @media (max-width: 567px) {
   .Avatar {
-    width: 311px;
+    max-width: 311px;
+    margin: auto;
+    padding-left: 0;
   }
 
   .Avatar-img {

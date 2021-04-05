@@ -18,7 +18,7 @@ const Avatar = ({ img, name, description }) => {
         </div>
       </div>
       <h5>{name}</h5>
-      <p>{description}</p>
+      <p className="text-muted">{description}</p>
       <div className="Avatar-dark-icons">
         <img src={linkedinDark} alt="linkedin" />
         <img src={twitterDark} className="mx-4" alt="twitter" />
