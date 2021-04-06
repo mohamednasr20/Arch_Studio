@@ -13,7 +13,7 @@ const ContactDetails = () => {
         </h3>
       </Col>
       <Col lg={4} className="d-md-flex d-lg-block">
-        <div className="mt-5">
+        <div className="mt-5 mt-lg-0">
           <h5>Main Office</h5>
           <p className="mb-1">Mail: archone@mail.com</p>
           <p className="mb-1">Address: 1892 Chenoweth Drive TN</p>
@@ -26,7 +26,7 @@ const ContactDetails = () => {
         </div>
       </Col>
       <Col lg={4} className="d-md-flex d-lg-block">
-        <div className="mt-5">
+        <div className="mt-5 mt-lg-0">
           <h5>Office II</h5>
           <p className="mb-1">Mail: archtwo@mail.com</p>
           <p className="mb-1">Address: 3399 Wines Lane TX</p>
