@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/ContactDetails.css';
-import arrow from '../../assets/icons/icon-arrowDark.svg';
+import arrowDark from '../../assets/icons/icon-arrowDark.svg';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -20,9 +20,9 @@ const ContactDetails = () => {
           <p className="mb-1">Phone: 123-456-3451</p>
         </div>
         <div className="mt-4 align-self-center ml-auto">
-          <a href="">
-            View on Map <img src={arrow} className="ml-3" alt="arrow" />
-          </a>
+          <div className="mapLink">
+            View on Map <img src={arrowDark} className="ml-3" alt="arrow" />
+          </div>
         </div>
       </Col>
       <Col lg={4} className="d-md-flex d-lg-block">
@@ -33,9 +33,9 @@ const ContactDetails = () => {
           <p className="mb-1">Phone: 832-123-4321</p>
         </div>
         <div className="mt-4 align-self-center ml-auto">
-          <a href="">
-            View on Map <img src={arrow} className="ml-3" alt="arrow" />
-          </a>
+          <div className="mapLink">
+            View on Map <img src={arrowDark} className="ml-3" alt="arrow" />
+          </div>
         </div>
       </Col>
     </Row>

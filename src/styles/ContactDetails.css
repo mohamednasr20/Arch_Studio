@@ -13,11 +13,12 @@
   font-weight: 700;
 }
 
-.ContactDetails a {
+.ContactDetails .mapLink {
   font-size: 15px;
   line-height: 25px;
   color: var(--main-color);
   font-weight: 700;
+  cursor: pointer;
 }
 
 @media (max-width: 567px) {
