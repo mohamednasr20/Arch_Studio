@@ -1,9 +1,10 @@
 import React from 'react';
-import CurrentPage from '../component/CurrentPage';
-import Hero from '../component/Hero';
-import hero from '../assets/contact/desktop/image-hero.jpg';
-import heroTablet from '../assets/contact/tablet/image-hero.jpg';
-import heroMobile from '../assets/contact/mobile/image-hero.jpg';
+import CurrentPage from '../../component/CurrentPage';
+import Hero from '../../component/Hero';
+import ContactDetails from './ContactDetails';
+import hero from '../../assets/contact/desktop/image-hero.jpg';
+import heroTablet from '../../assets/contact/tablet/image-hero.jpg';
+import heroMobile from '../../assets/contact/mobile/image-hero.jpg';
 const Contact = () => {
   const images = {
     hero,
@@ -22,6 +23,7 @@ const Contact = () => {
         subtitle="Tell us about your project"
         description={description}
       />
+      <ContactDetails />
     </section>
   );
 };

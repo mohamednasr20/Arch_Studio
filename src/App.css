@@ -30,6 +30,7 @@ h3 {
   font-size: 56px;
   line-height: 56px;
   letter-spacing: -2px;
+  color: var(--main-color);
 }
 
 a,
@@ -47,6 +48,7 @@ li {
   font-weight: 500;
   line-height: 25px;
   width: 445px;
+  color: var(--dark-color);
 }
 
 .btn {

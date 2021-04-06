@@ -1,0 +1,38 @@
+.ContactDetails {
+  margin: 100px 0;
+}
+
+.ContactDetails h5,
+.ContactDetails p {
+  font-size: 15px;
+  line-height: 35px;
+  color: var(--dark-color);
+}
+
+.ContactDetails h5 {
+  font-weight: 700;
+}
+
+.ContactDetails a {
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+@media (max-width: 567px) {
+  .ContactDetails {
+    max-width: 311px;
+    margin: auto;
+    padding-left: 0;
+  }
+
+  .ContactDetails h3 span {
+    display: block;
+    padding-left: 0;
+  }
+
+  .ContactDetails .col-lg-4 {
+    padding-left: 3px;
+  }
+}

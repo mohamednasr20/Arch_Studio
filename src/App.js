@@ -8,7 +8,7 @@ import Footer from './component/Footer';
 import Home from './component/home/Home';
 import About from './component/about/About';
 import Portfolio from './component/Portfolio';
-import Contact from './component/Contact';
+import Contact from './component/contact/Contact';
 
 const App = () => {
   return (
