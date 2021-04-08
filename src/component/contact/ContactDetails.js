@@ -1,5 +1,4 @@
 import React from 'react';
-import Map from '../contact/Map';
 import '../../styles/ContactDetails.css';
 import arrowDark from '../../assets/icons/icon-arrowDark.svg';
 import Row from 'react-bootstrap/Row';
@@ -7,13 +6,9 @@ import Col from 'react-bootstrap/Col';
 
 const ContactDetails = () => {
 
-  const location = {
-    address: '3399 Wines Lane TX',
-    lat: 29.89743,
-    lng: -97.82751,
-  };
+  
   return (
-    <>
+  
     <Row className="ContactDetails">
       <Col lg={4}>
         <h3 className="mb-md-5">
@@ -47,9 +42,7 @@ const ContactDetails = () => {
         </div>
       </Col>
       </Row>
-      <Map location={location} zoomLevel={5} />
-
-      </>
+      
   );
 };
 
