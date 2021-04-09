@@ -5,10 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const ContactDetails = () => {
-
-  
   return (
-  
     <Row className="ContactDetails">
       <Col lg={4}>
         <h3 className="mb-md-5">
@@ -41,8 +38,7 @@ const ContactDetails = () => {
           </div>
         </div>
       </Col>
-      </Row>
-      
+    </Row>
   );
 };
 
