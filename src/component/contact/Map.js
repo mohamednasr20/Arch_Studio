@@ -1,6 +1,5 @@
 import React from 'react';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
-import { Icon } from 'leaflet';
 import '../../styles/Map.css';
 
 const MyMap = () => {
