@@ -48,6 +48,16 @@
   padding-top: 30px;
 }
 
+.Hero::after {
+  content: '';
+  position: absolute;
+  bottom: -150px;
+  left: 0;
+  height: 1px;
+  width: 65px;
+  background: var(--light-color);
+}
+
 @media (max-width: 1024px) {
   .Hero h1 {
     right: 3px;
@@ -69,6 +79,10 @@
     display: none;
   }
 
+  .Hero::after {
+    bottom: -50px;
+    left: 10%;
+  }
   .Hero-img::before {
     position: absolute;
     content: '';
