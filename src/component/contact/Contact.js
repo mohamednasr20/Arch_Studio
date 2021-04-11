@@ -3,9 +3,11 @@ import CurrentPage from '../../component/CurrentPage';
 import Hero from '../../component/Hero';
 import ContactDetails from './ContactDetails';
 import Map from './Map';
+import ContactForm from './ContactForm';
 import hero from '../../assets/contact/desktop/image-hero.jpg';
 import heroTablet from '../../assets/contact/tablet/image-hero.jpg';
 import heroMobile from '../../assets/contact/mobile/image-hero.jpg';
+import '../../styles/Contact.css';
 
 const Contact = () => {
   const images = {
@@ -28,6 +30,7 @@ const Contact = () => {
       />
       <ContactDetails />
       <Map />
+      <ContactForm />
     </section>
   );
 };

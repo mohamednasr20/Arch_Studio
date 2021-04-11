@@ -1,0 +1,25 @@
+.ContactForm {
+  position: relative;
+  margin: 100px 0;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid var(--light-color);
+  padding: 30px;
+}
+
+.ContactForm button {
+  position: absolute;
+  right: 0;
+}
+
+@media (max-width: 567px) {
+  .ContactForm {
+    margin: 100px 20px;
+  }
+
+  .ContactForm span {
+    display: block;
+  }
+}
