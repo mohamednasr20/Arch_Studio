@@ -5,7 +5,7 @@ import Welcome from './Welcome';
 import SmallTeam from './SmallTeam';
 import Featured from './Featured';
 
-function Home({ currentPage }) {
+const Home = () => {
   return (
     <section className="mx-0 px-0">
       <CurrentPage pageName="home" />
@@ -15,6 +15,6 @@ function Home({ currentPage }) {
       <Featured />
     </section>
   );
-}
+};
 
 export default Home;
