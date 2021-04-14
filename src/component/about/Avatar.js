@@ -1,10 +1,9 @@
 import React from 'react';
-
 import linkedin from '../../assets/icons/icon-linkedin.svg';
 import linkedinDark from '../../assets/icons/icon-linkedinDark.svg';
 import twitter from '../../assets/icons/icon-twitter.svg';
 import twitterDark from '../../assets/icons/icon-twitterDark.svg';
-import '../../styles/Avatar.css';
+import '../../styles/about/Avatar.css';
 import Col from 'react-bootstrap/Col';
 
 const Avatar = ({ img, name, description }) => {

@@ -12,7 +12,7 @@ const ShowCase = ({ images, title, subtitle, description }) => {
         </picture>
       </div>
       <div className="Hero-content-wrapper">
-        <h1 className="Hero-title">{title}</h1>
+        <h2 className="heading">{title}</h2>
         <div className="Hero-content">
           <h3>{subtitle}</h3>
           <p className="lead">{description}</p>

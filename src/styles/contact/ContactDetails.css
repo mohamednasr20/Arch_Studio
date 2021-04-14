@@ -21,7 +21,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 567px) {
+@media (max-width: 576px) {
   .ContactDetails {
     max-width: 311px;
     margin: auto;

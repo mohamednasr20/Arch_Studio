@@ -10,6 +10,10 @@
   text-align: left;
 }
 
+.carousel-caption .lead {
+  color: #ffffff;
+}
+
 .carousel-caption button {
   margin-top: 25px;
 }

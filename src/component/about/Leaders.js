@@ -6,7 +6,7 @@ import avatarMaria from '../../assets/about/desktop/avatar-maria.jpg';
 import avatarThompson from '../../assets/about/desktop/avatar-thompson.jpg';
 import Row from 'react-bootstrap/Row';
 import { Col } from 'react-bootstrap';
-import '../../styles/Leaders.css';
+import '../../styles/about/Leaders.css';
 
 const leadersArr = [
   {

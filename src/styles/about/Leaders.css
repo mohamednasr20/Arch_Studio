@@ -3,7 +3,7 @@
   margin-bottom: 100px;
 }
 
-@media (max-width: 567px) {
+@media (max-width: 576px) {
   .Leaders {
     margin: auto;
   }

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/Heritage.css';
+import '../../styles/about/Heritage.css';
 import heritage from '../../assets/about/desktop/image-heritage.jpg';
 
 const Heritage = () => {

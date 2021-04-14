@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import smallTeamImg from '../../assets/home/desktop/image-small-team.jpg';
 import smallTeamTabletImg from '../../assets/home/tablet/image-small-team.jpg';
 import smallTeamMobileImg from '../../assets/home/mobile/image-small-team.jpg';
 import arrow from '../../assets/icons/icon-arrow.svg';
-import '../../styles/SmallTeam.css';
+import '../../styles/home/SmallTeam.css';
 
 const SmallTeam = () => {
   return (
@@ -12,7 +13,9 @@ const SmallTeam = () => {
       <div className="SmallTeam-content">
         <h3 className="mb-5">Small team, big ideas</h3>
         <Button>
-          About Us <img className="ml-2" src={arrow} alt="arrow" />
+          <Link to="/about">
+            About Us <img className="ml-2" src={arrow} alt="arrow" />
+          </Link>
         </Button>{' '}
       </div>
       <picture>

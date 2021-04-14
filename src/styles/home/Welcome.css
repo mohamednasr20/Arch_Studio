@@ -7,7 +7,7 @@
   margin-left: 40px;
 }
 
-.Welcome h1 {
+.Welcome .heading {
   font-weight: 700;
   font-size: 200px;
   line-height: 200px;
@@ -30,7 +30,7 @@
     margin: auto;
     text-align: left;
   }
-  .Welcome h1 {
+  .Welcome .heading {
     font-size: 120px;
     letter-spacing: -3px;
     transform: translateY(0);
@@ -43,13 +43,13 @@
   }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 576px) {
   .Welcome-content {
     max-width: 311px;
     padding-top: 50px;
     padding: 15px 0;
   }
-  .Welcome h1 {
+  .Welcome .heading {
     display: none;
   }
 

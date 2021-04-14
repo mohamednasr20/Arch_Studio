@@ -53,7 +53,7 @@
   }
 }
 
-@media (max-width: 567px) {
+@media (max-width: 576px) {
   .Avatar {
     max-width: 311px;
     margin: auto;

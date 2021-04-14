@@ -14,7 +14,7 @@ import imageMobileSeraph from '../../assets/home/mobile/image-hero-seraph.jpg';
 import imageMobileFedral from '../../assets/home/mobile/image-hero-federal.jpg';
 import imageMobileTrinity from '../../assets/home/mobile/image-hero-trinity.jpg';
 import arrow from '../../assets/icons/icon-arrow.svg';
-import '../../styles/HomeCarousel.css';
+import '../../styles/home/HomeCarousel.css';
 import { Link } from 'react-router-dom';
 
 const HomeCarousel = ({ currentPage }) => {
@@ -31,7 +31,7 @@ const HomeCarousel = ({ currentPage }) => {
           />
         </picture>
         <Carousel.Caption>
-          <h1>Project Paramour</h1>
+          <h1 className="heading">Project Paramour</h1>
           <p className="py-2 lead">
             Project made for an art museum near Southwest London. Project
             Paramour is a statement of bold, modern architecture.
@@ -51,7 +51,7 @@ const HomeCarousel = ({ currentPage }) => {
         </picture>
 
         <Carousel.Caption>
-          <h1>Seraph Station</h1>
+          <h1 className="heading">Seraph Station</h1>
           <p className="py-2 lead">
             The Seraph Station project challenged us to design a unique station
             that would transport people through time. The result is a fresh and
@@ -72,7 +72,7 @@ const HomeCarousel = ({ currentPage }) => {
         </picture>
 
         <Carousel.Caption>
-          <h1>Federal II Tower</h1>
+          <h1 className="heading">Federal II Tower</h1>
           <p className="py-2 lead">
             A sequel theme project for a tower originally built in the 1800s. We
             achieved this with a striking look of brutal minimalism with modern
@@ -97,7 +97,7 @@ const HomeCarousel = ({ currentPage }) => {
         </picture>
 
         <Carousel.Caption>
-          <h1>Trinity Bank Tower</h1>
+          <h1 className="heading">Trinity Bank Tower</h1>
           <p className="py-2 lead">
             Trinity Bank challenged us to make a concept for a 84 story building
             located in the middle of a city with a high earthquake frequency.

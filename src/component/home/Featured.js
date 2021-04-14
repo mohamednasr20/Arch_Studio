@@ -15,7 +15,7 @@ import prototypeTablet from '../../assets/portfolio/tablet/image-prototype.jpg';
 import prototypeMobile from '../../assets/portfolio/mobile/image-prototype.jpg';
 import arrow from '../../assets/icons/icon-arrow.svg';
 
-import '../../styles/Featured.css';
+import '../../styles/home/Featured.css';
 
 const Featured = () => {
   const text = <Link to="/portfolio">View all Projects</Link>;

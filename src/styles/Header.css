@@ -18,7 +18,7 @@
   background: var(--main-color);
 }
 
-@media (max-width: 567px) {
+@media (max-width: 576px) {
   .Navbar {
     height: 96px;
     width: 100%;

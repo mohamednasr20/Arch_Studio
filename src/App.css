@@ -6,7 +6,6 @@
   --medium-color: #7d828f;
   --light-color: #c8ccd8;
   --very-light-color: #eeeff4;
-  --error-color: #df5656;
 }
 
 * {
@@ -17,12 +16,6 @@
 
 body {
   font-family: 'Spartan', sans-serif;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 80px;
-  line-height: 80px;
 }
 
 h3 {
@@ -41,6 +34,12 @@ a:hover {
 
 li {
   list-style: none;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
 }
 
 .lead {
@@ -75,8 +74,8 @@ li {
   }
 }
 
-@media (max-width: 567px) {
-  h1 {
+@media (max-width: 576px) {
+  .heading {
     font-weight: 700;
     font-size: 50px;
     line-height: 50px;
@@ -99,7 +98,7 @@ li {
 }
 
 @media (max-width: 376px) {
-  h1 {
+  .heading {
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;

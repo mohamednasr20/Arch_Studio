@@ -35,7 +35,7 @@
   min-width: 100%;
 }
 
-@media (max-width: 567px) {
+@media (max-width: 576px) {
   .Featured {
     width: 311px;
   }

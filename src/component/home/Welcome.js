@@ -1,11 +1,11 @@
 import React from 'react';
 import welcomImage from '../../assets/home/desktop/image-welcome.jpg';
-import '../../styles/Welcome.css';
+import '../../styles/home/Welcome.css';
 
 const Welcome = () => {
   return (
     <div className="Welcome">
-      <h1>Welcome</h1>
+      <h2 className="heading">Welcome</h2>
       <div className="d-lg-flex">
         <div className="Welcome-content align-self-end ml-lg-auto px-md-4">
           <h3 className="mb-3">Welcome to Arch Studio</h3>

@@ -3,7 +3,7 @@
   margin-bottom: 200px;
 }
 
-.Hero h1 {
+.Hero .heading {
   position: absolute;
   right: 35px;
   bottom: 400px;
@@ -59,7 +59,7 @@
 }
 
 @media (max-width: 1024px) {
-  .Hero h1 {
+  .Hero .heading {
     right: 3px;
     bottom: 320px;
     font-size: 120px;
@@ -71,11 +71,11 @@
   }
 }
 
-@media (max-width: 567px) {
+@media (max-width: 576px) {
   .Hero {
     margin-bottom: 50px;
   }
-  .Hero h1 {
+  .Hero .heading {
     display: none;
   }
 
