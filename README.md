@@ -11,13 +11,15 @@ Users able to:
   - The `Name`, `Email` or `Message` fields are empty should show "Can't be empty"
   - The `Email` is not formatted correctly should show "Please use a valid email address"
 
-  ### Screenshot
+- [Live perview](https://archapp.netlify.app/)
 
-  ![](./screenshot.png)
+### Screenshot
 
-  ## My process
+![](./screenshot.png)
 
-  ### Built with
+## My process
 
-  - [React](https://reactjs.org/) - JS library
-  - [ReactBootstrap](https://react-bootstrap.github.io/) - For styles
+### Built with
+
+- [React](https://reactjs.org/) - JS library
+- [ReactBootstrap](https://react-bootstrap.github.io/) - For styles
