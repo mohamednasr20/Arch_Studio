@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import CurrentPage from '../../component/CurrentPage';
 import Hero from '../../component/Hero';
 import Map from './Map';
