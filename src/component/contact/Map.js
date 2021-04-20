@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import ContactDetails from './ContactDetails';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import '../../styles/contact/Map.css';
 
 const Map = () => {
+  const mapRef = useRef();
+
+  const handleMapScroll = (element) => {
+    element.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
   const locations = [
     {
       address: '1892 Chenoweth Drive TN',
@@ -25,10 +32,13 @@ const Map = () => {
   });
 
   return (
-    <MapContainer center={center} zoom={5} scrollWheelZoom={false}>
-      <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-      {makers}
-    </MapContainer>
+    <>
+      <ContactDetails handleScroll={() => handleMapScroll(mapRef)} />
+      <MapContainer center={center} zoom={5} scrollWheelZoom={false}>
+        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+        <div ref={mapRef}>{makers}</div>
+      </MapContainer>
+    </>
   );
 };
 

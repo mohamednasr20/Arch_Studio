@@ -19,7 +19,7 @@ const offcies = [
   },
 ];
 
-const ContactDetails = () => {
+const ContactDetails = ({ handleScroll }) => {
   const showOffices = offcies.map((office) => {
     return (
       <Office
@@ -28,6 +28,7 @@ const ContactDetails = () => {
         mail={office.mail}
         address={office.address}
         phone={office.phone}
+        handleScroll={handleScroll}
       />
     );
   });

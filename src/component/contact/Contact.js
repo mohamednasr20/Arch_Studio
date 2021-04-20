@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import CurrentPage from '../../component/CurrentPage';
 import Hero from '../../component/Hero';
-import ContactDetails from './ContactDetails';
 import Map from './Map';
 import ContactForm from './ContactForm';
 import hero from '../../assets/contact/desktop/image-hero.jpg';
@@ -28,7 +27,6 @@ const Contact = () => {
         subtitle="Tell us about your project"
         description={description}
       />
-      <ContactDetails />
       <Map />
       <ContactForm />
     </section>
